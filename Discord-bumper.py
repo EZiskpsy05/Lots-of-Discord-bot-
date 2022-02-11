@@ -41,17 +41,6 @@ async def on_ready():
         await channel.send("found channel")
         await channel.send("!d bump")
         time.sleep(8125) # 8125 seconds == 2 hours
-        
-        
-        
-    #server = bot.get_server(member.server)
-    #channel = discord.utils.get(server.text_channels, name='general')
-    
-    #print(str(botReceive.user.fetch_channel))
-    
-    #https://discordpy.readthedocs.io/en/latest/api.html?highlight=discord%20utils%20get#discord.utils.get
-    # print(str(discord.utils.get(async botReceive.fetch_guild.text_channels, name="general")))
-    #print(botReceive.get_channel('855039765711552515'))
 
 @botReceive.command()
 async def bla(ctx): # https://discordpy.readthedocs.io/en/stable/ext/commands/api.html#discord.ext.commands.Context
