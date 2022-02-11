@@ -1,5 +1,3 @@
-# Lots-of-Discord-bot-
-A bunch of Discord bots in one repository
 
 # Online-Forever
 Make your Discord Account Online 24/7!
